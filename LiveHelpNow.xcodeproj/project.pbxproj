@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C84FCA6B1C0F3E4500BA1EF1 /* LiveHelpNow-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C84FCA6C1C0F3E4500BA1EF1 /* Build configuration list for PBXAggregateTarget "LiveHelpNow-iOS" */;
+			buildPhases = (
+				C84FCA711C0F3E4F00BA1EF1 /* ShellScript */,
+			);
+			dependencies = (
+				C84FCA701C0F3E4D00BA1EF1 /* PBXTargetDependency */,
+			);
+			name = "LiveHelpNow-iOS";
+			productName = "LiveHelpNow-iOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		76992328EA05E4F9406E6508 /* libPods-LiveHelpNow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74140E694D88304EDE40096C /* libPods-LiveHelpNow.a */; };
+		C84FCA601C0F3CFD00BA1EF1 /* LiveHelpNow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C84FCA5F1C0F3CFD00BA1EF1 /* LiveHelpNow.h */; };
+		C84FCA621C0F3CFD00BA1EF1 /* LiveHelpNow.m in Sources */ = {isa = PBXBuildFile; fileRef = C84FCA611C0F3CFD00BA1EF1 /* LiveHelpNow.m */; };
+		C84FCA691C0F3D8100BA1EF1 /* LiveHelpNow.h in Headers */ = {isa = PBXBuildFile; fileRef = C84FCA5F1C0F3CFD00BA1EF1 /* LiveHelpNow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C87E75281C5B9F0E00AF7C47 /* LHNChatSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C87E751F1C5B9F0E00AF7C47 /* LHNChatSession.h */; };
+		C87E75291C5B9F0E00AF7C47 /* LHNChatSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E75201C5B9F0E00AF7C47 /* LHNChatSession.m */; };
+		C87E752A1C5B9F0E00AF7C47 /* LHNHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C87E75211C5B9F0E00AF7C47 /* LHNHTTPRequest.h */; };
+		C87E752B1C5B9F0E00AF7C47 /* LHNHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E75221C5B9F0E00AF7C47 /* LHNHTTPRequest.m */; };
+		C87E752C1C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C87E75231C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.h */; };
+		C87E752D1C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E75241C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.m */; };
+		C87E752E1C5B9F0E00AF7C47 /* LHNVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = C87E75251C5B9F0E00AF7C47 /* LHNVisitor.h */; };
+		C87E752F1C5B9F0E00AF7C47 /* LHNVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E75261C5B9F0E00AF7C47 /* LHNVisitor.m */; };
+		C87E75301C5B9F0E00AF7C47 /* LiveHelpNow_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C87E75271C5B9F0E00AF7C47 /* LiveHelpNow_Private.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C84FCA6F1C0F3E4D00BA1EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84FCA541C0F3CFD00BA1EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84FCA5B1C0F3CFD00BA1EF1;
+			remoteInfo = LiveHelpNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C84FCA5A1C0F3CFD00BA1EF1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C84FCA601C0F3CFD00BA1EF1 /* LiveHelpNow.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47CAA3108C7C479E1E092DA6 /* Pods-LiveHelpNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveHelpNow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveHelpNow/Pods-LiveHelpNow.debug.xcconfig"; sourceTree = "<group>"; };
+		74140E694D88304EDE40096C /* libPods-LiveHelpNow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveHelpNow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84FCA5C1C0F3CFD00BA1EF1 /* libLiveHelpNow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLiveHelpNow.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84FCA5F1C0F3CFD00BA1EF1 /* LiveHelpNow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveHelpNow.h; sourceTree = "<group>"; };
+		C84FCA611C0F3CFD00BA1EF1 /* LiveHelpNow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveHelpNow.m; sourceTree = "<group>"; };
+		C87E751F1C5B9F0E00AF7C47 /* LHNChatSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNChatSession.h; sourceTree = "<group>"; };
+		C87E75201C5B9F0E00AF7C47 /* LHNChatSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHNChatSession.m; sourceTree = "<group>"; };
+		C87E75211C5B9F0E00AF7C47 /* LHNHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNHTTPRequest.h; sourceTree = "<group>"; };
+		C87E75221C5B9F0E00AF7C47 /* LHNHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHNHTTPRequest.m; sourceTree = "<group>"; };
+		C87E75231C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C87E75241C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHNHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		C87E75251C5B9F0E00AF7C47 /* LHNVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNVisitor.h; sourceTree = "<group>"; };
+		C87E75261C5B9F0E00AF7C47 /* LHNVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHNVisitor.m; sourceTree = "<group>"; };
+		C87E75271C5B9F0E00AF7C47 /* LiveHelpNow_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveHelpNow_Private.h; sourceTree = "<group>"; };
+		F0E1299729228F9F668279D5 /* Pods-LiveHelpNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveHelpNow.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveHelpNow/Pods-LiveHelpNow.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84FCA591C0F3CFD00BA1EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76992328EA05E4F9406E6508 /* libPods-LiveHelpNow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F23DA17A33378D87C888A4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74140E694D88304EDE40096C /* libPods-LiveHelpNow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B369CB688EC53EEB96802139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47CAA3108C7C479E1E092DA6 /* Pods-LiveHelpNow.debug.xcconfig */,
+				F0E1299729228F9F668279D5 /* Pods-LiveHelpNow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5B66A625781637B064F94A8 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		C84FCA531C0F3CFD00BA1EF1 = {
+			isa = PBXGroup;
+			children = (
+				C8F3EE041C0F5CED00E052B8 /* Samples */,
+				C84FCA5E1C0F3CFD00BA1EF1 /* LiveHelpNow */,
+				C84FCA5D1C0F3CFD00BA1EF1 /* Products */,
+				C5B66A625781637B064F94A8 /* Vendor */,
+				B369CB688EC53EEB96802139 /* Pods */,
+				1F23DA17A33378D87C888A4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C84FCA5D1C0F3CFD00BA1EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84FCA5C1C0F3CFD00BA1EF1 /* libLiveHelpNow.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84FCA5E1C0F3CFD00BA1EF1 /* LiveHelpNow */ = {
+			isa = PBXGroup;
+			children = (
+				C87E751F1C5B9F0E00AF7C47 /* LHNChatSession.h */,
+				C87E75201C5B9F0E00AF7C47 /* LHNChatSession.m */,
+				C87E75211C5B9F0E00AF7C47 /* LHNHTTPRequest.h */,
+				C87E75221C5B9F0E00AF7C47 /* LHNHTTPRequest.m */,
+				C87E75231C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.h */,
+				C87E75241C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.m */,
+				C87E75251C5B9F0E00AF7C47 /* LHNVisitor.h */,
+				C87E75261C5B9F0E00AF7C47 /* LHNVisitor.m */,
+				C87E75271C5B9F0E00AF7C47 /* LiveHelpNow_Private.h */,
+				C84FCA5F1C0F3CFD00BA1EF1 /* LiveHelpNow.h */,
+				C84FCA611C0F3CFD00BA1EF1 /* LiveHelpNow.m */,
+			);
+			path = LiveHelpNow;
+			sourceTree = "<group>";
+		};
+		C8F3EE041C0F5CED00E052B8 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Samples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C84FCA681C0F3D7D00BA1EF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E75281C5B9F0E00AF7C47 /* LHNChatSession.h in Headers */,
+				C87E752E1C5B9F0E00AF7C47 /* LHNVisitor.h in Headers */,
+				C87E75301C5B9F0E00AF7C47 /* LiveHelpNow_Private.h in Headers */,
+				C84FCA691C0F3D8100BA1EF1 /* LiveHelpNow.h in Headers */,
+				C87E752C1C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.h in Headers */,
+				C87E752A1C5B9F0E00AF7C47 /* LHNHTTPRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C84FCA5B1C0F3CFD00BA1EF1 /* LiveHelpNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84FCA651C0F3CFD00BA1EF1 /* Build configuration list for PBXNativeTarget "LiveHelpNow" */;
+			buildPhases = (
+				A8F1B7B825EB90B6ABF4AECC /* Check Pods Manifest.lock */,
+				C84FCA581C0F3CFD00BA1EF1 /* Sources */,
+				C84FCA591C0F3CFD00BA1EF1 /* Frameworks */,
+				C84FCA5A1C0F3CFD00BA1EF1 /* CopyFiles */,
+				C84FCA681C0F3D7D00BA1EF1 /* Headers */,
+				C84FCA6A1C0F3D8500BA1EF1 /* Build Framework */,
+				A58BF946BA0A72D745A0C2E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveHelpNow;
+			productName = LiveHelpNow;
+			productReference = C84FCA5C1C0F3CFD00BA1EF1 /* libLiveHelpNow.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84FCA541C0F3CFD00BA1EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LiveHelpNow;
+				TargetAttributes = {
+					C84FCA5B1C0F3CFD00BA1EF1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C84FCA6B1C0F3E4500BA1EF1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C84FCA571C0F3CFD00BA1EF1 /* Build configuration list for PBXProject "LiveHelpNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84FCA531C0F3CFD00BA1EF1;
+			productRefGroup = C84FCA5D1C0F3CFD00BA1EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84FCA5B1C0F3CFD00BA1EF1 /* LiveHelpNow */,
+				C84FCA6B1C0F3E4500BA1EF1 /* LiveHelpNow-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A58BF946BA0A72D745A0C2E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveHelpNow/Pods-LiveHelpNow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F1B7B825EB90B6ABF4AECC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C84FCA6A1C0F3D8500BA1EF1 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		C84FCA711C0F3E4F00BA1EF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Taken from Ray Wenderlich tutorial: http://www.raywenderlich.com/65964/create-a-framework-for-ios\n\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nOUTPUT_LOCATION=\"${HOME}/Desktop\"\nif [ ! -w ${OUTPUT_LOCATION} ] ; then OUTPUT_LOCATION=\"${XCS_OUTPUT_DIR}\" ; fi\nif [ ! -w ${OUTPUT_LOCATION} ] ; then OUTPUT_LOCATION=\"/tmp\" ; fi\nif [ ! -w ${OUTPUT_LOCATION} ] ; then echo \"Couldn't find anywhere to write! Dying.\"; exit 1 ; fi\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\necho \"RW_SDK_PLATFORM is ${RW_SDK_PLATFORM}\"\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\necho \"RW_SDK_VERSION is ${RW_SDK_VERSION}\"\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\necho \"RW_OTHER_PLATFORM is ${RW_OTHER_PLATFORM}\"\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\necho \"BUILT_PRODUCTS_DIR is ${BUILT_PRODUCTS_DIR}\"\necho \"RW_OTHER_BUILT_PRODUCTS_DIR is ${RW_OTHER_BUILT_PRODUCTS_DIR}\"\n\n# remove alias and copy, if it's archive\nUNINSTALLED_PRODUCTS_DIRECTORY=\"${BUILT_PRODUCTS_DIR}/../../IntermediateBuildFilesPath/UninstalledProducts\"\n\nif [ -d \"$UNINSTALLED_PRODUCTS_DIRECTORY\" ]; then\necho \"Looks like we're archiving, fixing aliases...\"\nrm \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\ncp \"${UNINSTALLED_PRODUCTS_DIRECTORY}/${RW_INPUT_STATIC_LIB}\" \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\nif [ -d \"$UNINSTALLED_PRODUCTS_DIRECTORY\" ]; then\necho \"Looks like we're archiving, fixing aliases...\"\nrm \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\ncp \"${UNINSTALLED_PRODUCTS_DIRECTORY}/${RW_INPUT_STATIC_LIB}\" \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\nfi\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${OUTPUT_LOCATION}/${RW_FRAMEWORK_NAME}.framework\"\n\n# Copy the resources bundle\n#ditto \"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.bundle\" \\\n#\"${OUTPUT_LOCATION}/${RW_FRAMEWORK_NAME}.bundle\"\n\necho \"DONE. ***** FINAL FRAMEWORK AND BUNDLE WERE COPIED HERE: ${OUTPUT_LOCATION} *****\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84FCA581C0F3CFD00BA1EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E752D1C5B9F0E00AF7C47 /* LHNHTTPRequestOperationManager.m in Sources */,
+				C87E752F1C5B9F0E00AF7C47 /* LHNVisitor.m in Sources */,
+				C87E752B1C5B9F0E00AF7C47 /* LHNHTTPRequest.m in Sources */,
+				C84FCA621C0F3CFD00BA1EF1 /* LiveHelpNow.m in Sources */,
+				C87E75291C5B9F0E00AF7C47 /* LHNChatSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C84FCA701C0F3E4D00BA1EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84FCA5B1C0F3CFD00BA1EF1 /* LiveHelpNow */;
+			targetProxy = C84FCA6F1C0F3E4D00BA1EF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C84FCA631C0F3CFD00BA1EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		C84FCA641C0F3CFD00BA1EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		C84FCA661C0F3CFD00BA1EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CAA3108C7C479E1E092DA6 /* Pods-LiveHelpNow.debug.xcconfig */;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C84FCA671C0F3CFD00BA1EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E1299729228F9F668279D5 /* Pods-LiveHelpNow.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C84FCA6D1C0F3E4500BA1EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C84FCA6E1C0F3E4500BA1EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84FCA571C0F3CFD00BA1EF1 /* Build configuration list for PBXProject "LiveHelpNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84FCA631C0F3CFD00BA1EF1 /* Debug */,
+				C84FCA641C0F3CFD00BA1EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84FCA651C0F3CFD00BA1EF1 /* Build configuration list for PBXNativeTarget "LiveHelpNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84FCA661C0F3CFD00BA1EF1 /* Debug */,
+				C84FCA671C0F3CFD00BA1EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84FCA6C1C0F3E4500BA1EF1 /* Build configuration list for PBXAggregateTarget "LiveHelpNow-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84FCA6D1C0F3E4500BA1EF1 /* Debug */,
+				C84FCA6E1C0F3E4500BA1EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84FCA541C0F3CFD00BA1EF1 /* Project object */;
+}
